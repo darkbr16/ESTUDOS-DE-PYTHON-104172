@@ -1,0 +1,7 @@
+nome=input("Digite seu nome: ")
+idade=int(input("Digite sua idade: "))
+peso=float(input("Digite seu peso: "))
+nacionalidade=input("Digite sua nacionalidade: ")
+cpf=int(input("Digite seu CPF: "))
+gmail=input("Digite seu Gmail: ")
+print(f'seu nome e: {nome}, sua idade e: {idade}, seu peso e: {peso}, sua nacionalidade e: {nacionalidade}, seu cpf e: {cpf}, seu gmail e: {gmail}')
