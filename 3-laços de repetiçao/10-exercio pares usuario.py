@@ -1,6 +1,6 @@
 import os
 os.system('cls')
-QUANTIDADE=3
+QUANTIDADE=5
 pares=0
 impares=0
 for i in range (QUANTIDADE):
