@@ -2,7 +2,7 @@ import os
 os.system('cls')
 import time
 soma=0
-quantidade_de_notas=2
+quantidade_de_notas=3
 
 for i in range (quantidade_de_notas):
 
@@ -18,4 +18,6 @@ for i in range (quantidade_de_notas):
             os.system('cls')
 
 media=soma/quantidade_de_notas
+if media
 print(f'sua media foi {media}')
+
