@@ -18,6 +18,10 @@ for i in range (quantidade_de_notas):
             os.system('cls')
 
 media=soma/quantidade_de_notas
-if media
-print(f'sua media foi {media}')
+if media>=7:
+    print(f'voce foi aprovado sua media foi {media:.2f}')
+elif media>=5 or media<=6.9:
+    print(f'voce esta na recuperaçao sua media foi {media:.2f}')
 
+else:
+    print (f'voce foi reprovado sua media foi {media:.2f}')
