@@ -36,6 +36,7 @@ while True:
     
     if resposta=='2':
         os.system('cls')
+    
         if mulheres_supersalarios>0:
             media=soma_salarios/qd_mulher
             print('\n=====RESULTADOS=====')
@@ -45,4 +46,5 @@ while True:
             print(f'menor idade:{menor_idade}')
             print(f'mulheres como salario acima de 5 mil {mulheres_supersalarios}')
     else:
+        print('programa encerrado')
         break
