@@ -2,7 +2,7 @@ import os
 os.system('cls')
 
 vetor_notas=[]
-print('\n=INSERINDO  NOTAS=')
+print('\n=INSERINDO  NOTAS')
 for i in range (3):
     nota=float(input('digite uma nota:'))
     vetor_notas.append(nota)
