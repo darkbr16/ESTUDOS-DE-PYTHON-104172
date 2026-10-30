@@ -1,5 +1,6 @@
 import os
 os.system("cls")
+import time
 series_lista = []
 print("""===SÉRIES===
 
@@ -18,13 +19,15 @@ while True:
             if serie=='':
                 print("escreva uma série válida!")
             elif serie in series_lista:
-                print("série já cadastrada!")                   
+                print("série já cadastrada!")
             else:
                 series_lista.append(serie)
                 print("série adicionada com sucesso!")
         case 2:
             if len(series_lista)==0:
                 print("Não há séries cadastradas!")
+                time.sleep(1.5)
+                os.system('cls')
             else:
                 print("Listar séries")
                 for i, serie in enumerate(series_lista, start=1):
