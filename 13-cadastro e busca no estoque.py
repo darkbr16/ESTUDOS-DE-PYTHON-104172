@@ -46,7 +46,18 @@ while True:
             else:
                 print('Paciente não encontrado.')
         case 4:
-            ...
+            print('\n ==EXCLUIR PACIENTE==')
+            nome=input("qual e o nome do paciente a ser deletado?:")
+            sobrenome=input("qual e o sobrenome do paciente a ser deletado:")
+            if nome in lista_nome and sobrenome in lista_sobrenome:
+                i=lista_nome.index(nome)
+                j=lista_sobrenome.index(sobrenome)
+                if i ==j:
+                    del lista_nome[i]
+                    del lista_sobrenome[i]
+                    print("paciente deletado com sucesso")
+            else:
+                print("paciente nao encontrado.")
         case 0:
             print('adeus')
             break
