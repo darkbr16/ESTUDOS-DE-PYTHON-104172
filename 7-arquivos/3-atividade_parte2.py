@@ -28,3 +28,4 @@ for fornecedor in lista_fornecedores:
     print(f'Email:{fornecedor.email}')
     print(f'Telefone:{fornecedor.telefone}')
     print(f'Enderoço:{fornecedor.enderoco}')
+    print('================================')
