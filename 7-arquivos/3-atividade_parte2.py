@@ -25,7 +25,6 @@ with open (arquivo,'r') as arquivo_fornecedor:
 print('\nExibindo Dados do Cliente:')
 for fornecedor in lista_fornecedores:
     print(f'Nome:{fornecedor.nome}')
-    print(f'Nome:{fornecedor.nome}')
-    print(f'Nome:{fornecedor.nome}')
-    print(f'Nome:{fornecedor.nome}')
-    print(f'Nome:{fornecedor.nome}')
+    print(f'Email:{fornecedor.email}')
+    print(f'Telefone:{fornecedor.telefone}')
+    print(f'Enderoço:{fornecedor.enderoco}')
